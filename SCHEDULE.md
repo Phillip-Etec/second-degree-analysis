@@ -17,7 +17,7 @@ ___
 | Criação de sequences e triggers | Giovanna | :heavy_check_mark: | :heavy_check_mark: | Phillip |
 | Carga dos dados (primeiro conjunto de dados) | Marcos |  :yellow_circle:  | :white_circle: | :white_circle: |
 | Consultas estratégicas | Grupo | :heavy_check_mark: | :heavy_check_mark: | Phillip |
-| Dicionário de dados |  Giovanna  |   |  :x:  |   |
+| Dicionário de dados |  Giovanna  | :heavy_check_mark: | :heavy_check_mark: | Giovanna  |
 
 ___
 
