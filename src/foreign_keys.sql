@@ -23,10 +23,6 @@ ALTER TABLE infratores
         REFERENCES etnias (etn_id);
 
 ALTER TABLE homicidios
-    ADD CONSTRAINT fk_hmc_sol FOREIGN KEY (hmc_sol_id)
-       REFERENCES solucoes (sol_id);
-
-ALTER TABLE homicidios
     ADD CONSTRAINT fk_hmc_agn FOREIGN KEY (hmc_agn_id)
         REFERENCES agencias (agn_id);
 
