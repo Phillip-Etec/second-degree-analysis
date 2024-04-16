@@ -21,8 +21,6 @@ ALTER TABLE infratores ADD CONSTRAINT pk_inf PRIMARY KEY (inf_id);
 
 ALTER TABLE relacionamentos ADD CONSTRAINT pk_rel PRIMARY KEY (rel_id);
 
-ALTER TABLE solucoes ADD CONSTRAINT pk_sol PRIMARY KEY (sol_id);
-
 ALTER TABLE homicidios ADD CONSTRAINT pk_hmc PRIMARY KEY (hmc_id);
 
 -- ALTER TABLE armas ADD arm_id NUMBER GENERATED ALWAYS AS IDENTITY;
