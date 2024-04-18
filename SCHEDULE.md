@@ -1,7 +1,7 @@
 # TODO
 |Atividade|Responsável|Realizada?|Entregue?|Por quem?|
 |:--------|:---------:|:--------:|:-------:|:-------:|
-| Remover constraints de NOT NULL | Phill | :x: | | |
+| Remover constraints de NOT NULL | Phill | :heavy_check_mark: | | |
 | Criar tabelas de histórico | Phill | :heavy_check_mark: | | |
 | Criar triggers de histórico | Phill | :heavy_check_mark: | | |
 | Arrumar carga de dados | | | | |
