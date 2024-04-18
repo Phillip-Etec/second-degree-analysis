@@ -1,8 +1,8 @@
 # TODO
 |Atividade|Responsável|Realizada?|Entregue?|Por quem?|
 |:--------|:---------:|:--------:|:-------:|:-------:|
-| Remover constraints de NOT NULL |  | | | |
-| Criar tabelas de histórico |  | | | |
+| Remover constraints de NOT NULL | Phill | :x: | | |
+| Criar tabelas de histórico | Phill | :heavy_check_mark: | | |
 | Criar triggers de histórico | Phill | :heavy_check_mark: | | |
 | Arrumar carga de dados | | | | |
 ___
@@ -22,10 +22,10 @@ ___
 ___
 
 #### Glossário:
-| Símbolo | Significado |
-|:--------|:-----------|
-| :heavy_check_mark: | Tudo certo, afirmativo, tarefa realizado, funcionando, aprovada |
-| :x:                | Negativo, tarefa não realizada ou realizada de forma incorreta|
-| :white_circle:     | Não se aplica ao item da célula|
+|       Símbolo      | Significado                                                            |
+|:-------------------|:-----------------------------------------------------------------------|
+| :heavy_check_mark: | Tudo certo, afirmativo, tarefa realizado, funcionando, aprovada        |
+| :x:                | Negativo, tarefa não realizada ou realizada de forma incorreta         |
+| :white_circle:     | Não se aplica ao item da célula                                        |
 | :yellow_circle:    | Tarefa realizada, porém com resalvas, necessário refatorar ou finalizar|
-| | indeterminado ou não disponível|
+|                    | indeterminado ou não disponível                                        |
