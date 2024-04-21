@@ -1,6 +1,7 @@
 # TODO
 |Atividade|Responsável|Realizada?|Entregue?|Por quem?|
 |:--------|:---------:|:--------:|:-------:|:-------:|
+| Gerar modelo relacional das tabelas de historiamento | | | | |
 | Remover constraints de NOT NULL | Phill | :heavy_check_mark: | | |
 | Criar tabelas de histórico | Phill | :heavy_check_mark: | | |
 | Criar triggers de histórico | Phill | :heavy_check_mark: | | |
