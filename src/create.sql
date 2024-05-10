@@ -1,50 +1,50 @@
 
 CREATE TABLE armas (
     arm_id NUMBER(10),
-    arm_nome VARCHAR(24)
+    arm_nome VARCHAR(26)
 );
 
 CREATE TABLE estados (
     std_id NUMBER(10),
-    std_nome VARCHAR(18)
+    std_nome VARCHAR(20)
 );
 
 CREATE TABLE cidades (
     cdd_id NUMBER(10),
-    cdd_nome VARCHAR(18),
+    cdd_nome VARCHAR(46),
     cdd_std_id NUMBER(10)
 );
 
 CREATE TABLE tipos_de_crime (
     tcr_id NUMBER(10),
-    tcr_tipo VARCHAR(24)
+    tcr_tipo VARCHAR(45)
 );
 
 CREATE TABLE tipos_de_agencia (
     tag_id NUMBER(10),
-    tag_tipo VARCHAR(24)
+    tag_tipo VARCHAR(44)
 );
 
 CREATE TABLE agencias (
     agn_id NUMBER(10),
     agn_cod CHAR(7),
-    agn_nome VARCHAR(24),
+    agn_nome VARCHAR(127),
     agn_tag_id NUMBER(10)
 );
 
 CREATE TABLE racas (
     rac_id NUMBER(10),
-    rac_nome VARCHAR(18)
+    rac_nome VARCHAR(32)
 );
 
 CREATE TABLE etnias (
     etn_id NUMBER(10),
-    etn_nome VARCHAR(24)
+    etn_nome VARCHAR(32)
 );
 
 CREATE TABLE vitimas (
     vtm_id NUMBER(10),
-    vtm_sexo CHAR(6),
+    vtm_sexo CHAR(7),
     vtm_idade NUMBER(3),
     vtm_rac_id NUMBER(10),
     vtm_etn_id NUMBER(10)
@@ -52,7 +52,7 @@ CREATE TABLE vitimas (
 
 CREATE TABLE infratores (
     inf_id NUMBER(10),
-    inf_sexo CHAR(6),
+    inf_sexo CHAR(7),
     inf_idade NUMBER(3),
     inf_rac_id NUMBER(10),
     inf_etn_id NUMBER(10)
